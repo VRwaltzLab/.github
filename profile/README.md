@@ -4,14 +4,14 @@ In order to do good test driven development, an organization needs both a strong
 
 ## Commitments
 In the theme of sharing joy, this project is committed to:
-0- Solving the general problems VR has with waltz rather than just bringing waltz and nothing else into VR.
-1- Physical Prototypes which are made in the standard of COTS parts for a DIY maker audience
-2- Open Source, Modular, and Repairable Hardware
-3- Open Source, and Interpretable Software
-4- Inclusive and Expressive rather than Pricey or Prescriptive Dance Spaces
-5- Pay what you want Music with master files available.
-6- A Patronage and Support as a Service Revenue Model
-7- Co-op Cost and Pay Model once(if) money is involved. Work trading model before then.
+1. Solving the general problems VR has with waltz rather than just bringing waltz and nothing else into VR.
+2. Physical Prototypes which are made in the standard of COTS parts for a DIY maker audience
+3. Open Source, Modular, and Repairable Hardware
+4. Open Source, and Interpretable Software
+5. Inclusive and Expressive rather than Pricey or Prescriptive Dance Spaces
+6. Pay what you want Music with master files available.
+7. A Patronage and Support as a Service Revenue Model
+8. Co-op Cost and Pay Model once(if) money is involved. Work trading model before then.
 
 ## Motivation
 The founder’s core motivation is to do some hard math research which facilitates the sharing of joy. I want to build some robots, and I want to write some high performance algorithms.
