@@ -8,20 +8,20 @@ The Module layer then needs to take the desired force vectors and attempt to pro
 ## Drone vs Flywheels vs Suit vs Robot
 A common question this project has gotten is why a drone over a more traditional bodysuit? A less common question is why not flywheels instead? Another less common question is why not a dance robot?
 ### Cost:
-Of these three techniques, I am under the impression that for a DIY prototype, a drone will be the lowest cost for my application. 
+Of these four techniques, I am under the impression that for a DIY prototype, a drone will be the lowest cost for my application. 
 I don't know of any cheaper Commercial Off the Shelf parts for flywheels other than satellites, and satellite tech is expensive.
-The amount of motors for a suit or robot exceed those for a drone, because you have to have more than you degrees of freedom, also the strength and weight of those motors are inappropriate for my application.-Alex
+The amount of motors for a suit or robot exceed those for a drone, because you have to have more than 6 degrees of freedom (the robot needs to dodge you and itself) , also the strength and weight of those motors are inappropriate for my application.(Robot arms are not known for being bouncy or gentle) -Alex
 ### Suit Downsides
 #### Human body variance
-Human bodies vary in size over time and population. While some people might forget how bodies vary via natural processes, a good designer shouldn't. In order for a suit to work for an entire childhood, It would need to be incredibly dynamic
+Human bodies vary in size over time and population. While some people might forget how bodies vary via natural or common processes, a good designer shouldn't. In order for a suit to work for an entire childhood, It would need to be incredibly dynamic.
 In contrast, a drone can separate the macroscopic force problem from the body specificity problem via an adaptor/mounting point.
 #### Suit is hardest version
 Because the suit needs to move around the person and contain the person, it roughly becomes an exoskeleton problem which is famously expensive.
 ### Robot partner Downsides
-Has all the problems of the suit, but removes all the ability to make single player VR experiences.
+A robot partner has all the problems of the suit, but removes all the ability to make a single player VR experiences.
 ### Flywheel Downsides
 #### Flywheels produce Torque not Force:
-In any closed system, you can only get net torques not forces. Thus flywheels can't do net torques. In order to feel torques, one might have to do some crazy historesis scheme in order to "feel" a net force.
+In any closed system, you can only get net torques not forces; thus flywheels can't do net torques. In order to feel torques, one might have to do some crazy historesis scheme in order to "feel" a net force. That sounds dubious and person dependent and might not work.
 #### Flywheels have high inertia:
 In order to produce the torque desired, flywheels use changes in inertia to create impulses. While those impulses create real torque or angular momentum, they come from having inertia there.
 Its hard to move something that has a lot of active inertia.
@@ -30,7 +30,7 @@ Its hard to move something that has a lot of active inertia.
 Drones are loud, but this is a problem being worked on actively.
 #### Hair:
 Drones could potentially tangle with and rip out hair. This safety hazard needs to be known about, and workaround's are not yet visible.
-#### Missle behaviour:
+#### Projectile behaviour:
 A Drone disconnected from a user on a set force directive would accelerate until all forces are equal. The initial plan is a killswitch strap.
 #### Air moves loose things:
 UH, no plan right now for that. Current workaround is to test in open clean spaces like garages and gymnasiums.
