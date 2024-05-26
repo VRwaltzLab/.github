@@ -17,8 +17,8 @@ Human bodies vary in size over time and population. While some people might forg
 In contrast, a drone can separate the macroscopic force problem from the body specificity problem via an adaptor/mounting point.
 #### Suit is hardest version
 Because the suit needs to move around the person and contain the person, it roughly becomes an exoskeleton problem which is famously expensive.
-#### Robot partner
-
+### Robot partner Downsides
+Has all the problems of the suit, but removes all the ability to make single player VR experiences.
 ### Flywheel Downsides
 #### Flywheels produce Torque not Force:
 In any closed system, you can only get net torques not forces. Thus flywheels can't do net torques. In order to feel torques, one might have to do some crazy historesis scheme in order to "feel" a net force.
@@ -33,4 +33,16 @@ Drones could potentially tangle with and rip out hair. This safety hazard needs 
 #### Missle behaviour:
 A Drone disconnected from a user on a set force directive would accelerate until all forces are equal. The initial plan is a killswitch strap.
 #### Air moves loose things:
-UH, no plan right now for that.
+UH, no plan right now for that. Current workaround is to test in open clean spaces like garages and gymnasiums.
+## Other Design questions:
+### Why Force AND Torque control ?
+So anytime someone wants to experience force and torque at a different location from where its created, there is and intermixing going on. This intermixing is how levers work.
+If you try and design to avoid this intermixing, the machine's footprint becomes very large, which then makes it heavy and creates more problems.
+### Why Force feedback instead of my partner's hand.
+So why control the drone via a force instead of matching the location of you partner's hand? That's a good idea on the surface until you think of someone deciding to just grip the robot instead of following
+They would then feel a very intense force and if they let go, the Drone would quickly fly away. In addition to avoiding this safety case, this also avoids a layer of PID loops.
+### Why not use a quadcopter?
+Quadcopters do not have enough degrees of freedom to control all three dimensions the force vector can be pointing in, and all three directions the torque vector can also point in.
+They only have 4 motors, and their motors are arranged to maximize efficency not control. 
+#### why 8 motor prototype instead of 6? 
+Because I didn't find reversing motor controllers when I bought them initially. -Alex
