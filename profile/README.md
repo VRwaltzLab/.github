@@ -12,6 +12,7 @@ In the theme of sharing joy, this project is committed to:
 6. Pay what you want Music with master files available.
 7. A Patronage and Support as a Service Revenue Model
 8. Co-op Cost and Pay Model once(if) money is involved. Work trading model before then.
+9. The Test-Driven-Development concept of intending to design tests and specifications first.
 
 ## Motivation
 The founder’s core motivation is to do some hard math research which facilitates the sharing of joy. I want to build some robots, and I want to write some high performance algorithms.
